@@ -117,42 +117,42 @@ function fromJSON(proto, json) {
  */
 
 const cssSelectorBuilder = {
-  element(value) {
-    // throw new Error('Not implemented');
+  element(/* value */) {
+    throw new Error('Not implemented');
     // this.value=value;
-    console.log(this);
-    if (value) return value;
-    return '';
+    // console.log(this);
+    // if (value) return value;
+    // return '';
   },
 
-  id(value) {
-    // throw new Error('Not implemented');
-    if (value) return `#${value}`;
-    return '';
+  id(/* value */) {
+    throw new Error('Not implemented');
+    // if (value) return `#${value}`;
+    // return '';
   },
 
-  class(value) {
-    // throw new Error('Not implemented');
-    if (value) return `.${value}`;
-    return '';
+  class(/* value */) {
+    throw new Error('Not implemented');
+    // if (value) return `.${value}`;
+    // return '';
   },
 
-  attr(value) {
-    // throw new Error('Not implemented');
-    if (value) return `[${value}]`;
-    return '';
+  attr(/* value */) {
+    throw new Error('Not implemented');
+    // if (value) return `[${value}]`;
+    // return '';
   },
 
-  pseudoClass(value) {
-    // throw new Error('Not implemented');
-    if (value) return `:${value}`;
-    return '';
+  pseudoClass(/* value */) {
+    throw new Error('Not implemented');
+    // if (value) return `:${value}`;
+    // return '';
   },
 
-  pseudoElement(value) {
-    // throw new Error('Not implemented');
-    if (value) return `::${value}`;
-    return '';
+  pseudoElement(/* value */) {
+    throw new Error('Not implemented');
+    // if (value) return `::${value}`;
+    // return '';
   },
 
   combine(/* selector1, combinator, selector2 */) {
